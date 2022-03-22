@@ -1,0 +1,35 @@
+{
+  "name": "protractortypescriptcucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc",
+    "test" : "protractor Configuration.js",
+    "webdriver-update" : "%INIT_CWD%/node_modules/.bin/webdriver-manager update",
+    "webdriver-start" : "%INIT_CWD%/node_modules/.bin/webdriver-manager start",
+    "protractor1" : "%INIT_CWD%/node_modules/.bin/protractor Configuration.js",
+    "protractor" : "%INIT_CWD%/node_modules/.bin/protractor/built/cli.js",
+    "cucumbertest" : "protractor cucumberconfig.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^7.0.0",
+    "typescript": "^4.6.2",
+    "jasmine" : "^4.0.2",
+    "@types/jasmine" : "^4.0.0",
+    "@types/jasminewd2" : "^2.0.10",
+    "ts-node": "10.7.0",
+    "@types/node" : "^17.0.21",
+    "protractor-cucumber-framework" : "^6.1.1",
+    "cucumber" : "^5.1.0",
+    "@types/cucumber" : "^4.0.4",
+    "chai" : "^4.3.6",
+    "chai-as-promised" : "^7.1.1" ,
+    "cucumber-html-reporter" : "^4.0.4"
+
+
+  }
+}
